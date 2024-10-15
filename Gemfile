@@ -1,14 +1,15 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem "jekyll-timeago", "~> 0.13.1"
-end
-
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 3.5"
 gem "minimal-mistakes-jekyll"
-gem "tzinfo-data"
-gem "webrick"
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
-#bundle exec jekyll serve
+
+gem "webrick", "~> 1.7"
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo'
+gem 'tzinfo-data'
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+# Build in Ubuntu 18.04
+gem "kramdown-parser-gfm"
