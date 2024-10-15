@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "강승진"
 description              : "강승진의 게임 개발 블로그입니다."
-url                      : "https://bapue.github.io/SeungJinGameDevStudy.github.io/"
+url                      : "https://github.com/bapue/SeungJinGameDevStudy.github.io.git
 baseurl                  : ""
 repository               : "bapue/SeungJinGameDevStudy.github.io"
 teaser                   : ""
