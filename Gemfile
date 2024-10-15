@@ -2,14 +2,15 @@
 
 source "https://rubygems.org"
 
-
-
-gemspecs
-
 group :jekyll_plugins do
-    gem "jekyll-timeago", "~> 0.13.1"
-  end
+  gem "jekyll-timeago", "~> 0.13.1"
+end
 
-  gem "jekyll", "~> 4.2"
+gem "jekyll", "3.9.4"
+gem "github-pages", "~> 229"
+gem "minimal-mistakes-jekyll"
+gem "tzinfo-data"
+gem "webrick"
+gem "wdm", ">= 0.1.0" if Gem.win_platform?
 
-  gem "minimal-mistakes-jekyll"
+#bundle exec jekyll serve
