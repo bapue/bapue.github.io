@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
-title                    : "Taeyoung's Blog"
+title                    : "강승진의 게임 개발 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Taeyoung Kim"
-description              : "Taeyoung96의 개발 블로그입니다."
-url                      : "https://Taeyoung96.github.io"
+name                     : "강승진"
+description              : "강승진의 게임 개발 블로그입니다."
+url                      : "https://SeungJinGameDevStudy.github.io"
 baseurl                  : ""
-repository               : "Taeyoung96/Taeyoung96.github.io"
+repository               : "bapue/SeungJinGameDevStudy.github.io"
 teaser                   : ""
 logo                     : #
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "taeyoung96-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "SeungJinGameDevStudy.github.io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -85,15 +85,15 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "custom"
+  provider               : false #google-gtag # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-165344331-1"
+    tracking_id          : #"UA-165344331-1"
     anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
-  name             : "TaeYoung Kim"
-  avatar           : "https://user-images.githubusercontent.com/41863759/178097098-052b27f1-dd4d-49d2-838e-3f2081b01107.JPG"
+  name             : "SeungJin Kang"
+  avatar           : "https://raw.githubusercontent.com/bapue/Github-User-Contents/main/Avatar.jpg"
   bio              : ""
   # location         : "Seoul, South Korea"
   email            :
@@ -112,7 +112,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Taeyoung96"
+      url: "https://github.com/bapue"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -128,7 +128,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Taeyoung96"
+      url: "https://github.com/bapue"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

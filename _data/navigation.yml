@@ -8,41 +8,40 @@ main:
     url: /tags/
 
 side:
-  - title: Computer Vision
+  - title: Game development log
     children:
-      - title: "CS231n Summary"
-        url: /categories/CS231n/
-      - title: ""
-      - title: "Research"
-        url: /categories/Paper_Review/
-      - title: "Development Tip"
-        url: /categories/Computer_vision/
-  
-  - title: Robotics
-    children:
-      - title: "SLAM DUNK2 Summary"
-        url: /categories/Slam/
-      - title: "Research"
-        url: /categories/Research/
-      - title: "Development Tip"
-        url: /categories/SlamTip/
-  
-  - title: Mathematics
-    children:
-      - title: "Mathematics"
-        url: /categories/mathematics/
+      - title: "예시)게임 명 1"
+        url: /categories/Game1/
+      - title: "예시)게임 명 2"
+        url: /categories/Game2/
+      - title: "예시)게임 명 3"
+        url: /categories/Game3/
   
   - title: Programming
     children:
-      - title: "Modern C++ 정리"
-        url: /categories/ddabessi/
-
-  - title: Tips
+      - title: "C++"
+        url: /categories/CPP/
+      - title: "C#"
+        url: /categories/CSharp/
+      - title: "Data Structure"
+        url: /categories/DataStructure/
+        title: "Coding Test"
+        url: /categories/CodingTest/
+  
+  - title: Game Mathematics
     children:
-      - title: "Daily Tips"
-        url: /categories/dailytips/
-      - title: "Etc"
-        url: /categories/tips/
+      - title: "Mathematics"
+        url: /categories/Mathematics/
+  
+  - title: Unity
+    children:
+      - title: "Cinemachine"
+        url: /categories/Cinemachine/
+
+  - title: ETC
+    children:
+      - title: "GameCommentary"
+        url: /categories/GameCommentary/
   
   # - title: "Sample Posts"
   #   url: /year-archive/
