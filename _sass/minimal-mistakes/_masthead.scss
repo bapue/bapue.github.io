@@ -13,8 +13,9 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-inline: auto;
-    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,6 +24,9 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    /* devinlife : 메뉴바(위에 있는 것) 텍스트 설정 */
+    font-size: $type-size-5;
+    font-weight: bold;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -58,16 +62,17 @@
 }
 
 .masthead__menu {
-  float: inline-start;
-  margin-inline: 0;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   clear: both;
 
   .site-nav {
-    margin-inline-start: 0;
+    margin-left: 0;
 
     @include breakpoint($small) {
-      float: inline-end;
+      float: right;
     }
   }
 
@@ -85,7 +90,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-inline-end: 2em;
+    padding-right: 2em;
     font-weight: 700;
   }
 }
